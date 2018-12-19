@@ -46,7 +46,7 @@ ticketTenTags = parsed["tickets"][9]["tags"][0]
 ticketTenCreated = parsed["tickets"][4]["created_at"]
 ticketTenTags = parsed["tickets"][4]["tags"][0]
 
-
+ 
 # Data added a readable sentence
 ticketOne = 'Date Created: ' + ticketOneCreated + ', Ticket Tags: ' + ticketOneTags
 ticketTwo = 'Date Created: ' + ticketTwoCreated + ', Ticket Tags: ' + ticketTwoTags
@@ -70,4 +70,3 @@ def create():
         f.close()
 
 create()
-
