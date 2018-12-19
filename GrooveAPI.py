@@ -6,6 +6,7 @@ path = "https://api.groovehq.com/v1/tickets?access_token="
 access_token = ""
 url = path + access_token
 
+
 response = requests.get(url)
 data = response.text
 
